@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import styles from 'styles/Home.module.css'
 
 function Home() {
   return (
@@ -8,7 +7,7 @@ function Home() {
       <Head>
         <title>Home page</title>
       </Head>
-      <div className={styles.container}>
+      <div>
         <h1>Home Page</h1>
         <Link href="/about">
           <a>About Page</a>
